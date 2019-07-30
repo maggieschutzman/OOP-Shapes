@@ -16,6 +16,7 @@ namespace OOP_Shapes {
             this.side3 = side_c;
             this.side4 = side_d;
         }
+
         public int GetPerimeter() {
             return side1 + side2 + side3 + side4;
         }

@@ -4,6 +4,11 @@ namespace OOP_Shapes {
     class Program {
         static void Main(string[] args) {
 
+            var sqrcomp = new SquareComp(5);
+            var p = sqrcomp.GetPerimeter();
+            var a = sqrcomp.GetArea();
+            Console.WriteLine($"The SqrComp perimiter is {p} and area is {a}");
+
             var quad1 = new Quad(5, 7, 13, 6);
             var perimeter = quad1.GetPerimeter();
             Console.WriteLine($"The perimeter is {perimeter}");
@@ -20,7 +25,6 @@ namespace OOP_Shapes {
             area = square1.GetArea();
             Console.WriteLine($"The square area is {area}");
             
-        }
-        
+        }        
     }
 }
