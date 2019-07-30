@@ -8,10 +8,7 @@ namespace OOP_Shapes {
         public int side2 { get; set; }
         public int side3 { get; set; }
         public int side4 { get; set; }
-
-        public int GetPerimeter() {
-            return side1 + side2 + side3 + side4;
-        }
+        public int area { get; set; }
 
         public Quad(int side_a, int side_b, int side_c, int side_d) {
             this.side1 = side_a;
@@ -19,5 +16,13 @@ namespace OOP_Shapes {
             this.side3 = side_c;
             this.side4 = side_d;
         }
+        public int GetPerimeter() {
+            return side1 + side2 + side3 + side4;
+        }
+
+        public int GetArea() {
+            return side1 * side2;
+        }
     }
 }
+
