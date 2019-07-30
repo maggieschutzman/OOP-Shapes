@@ -9,6 +9,12 @@ namespace OOP_Shapes {
             var perimeter = quad1.GetPerimeter();
 
             Console.WriteLine($"The perimeter is {perimeter}");
+
+            var rect1 = new Rect(5, 13);
+
+            perimeter = rect1.GetPerimeter();
+
+            Console.WriteLine($"The rect periemter is {perimeter}");
         }
     }
 }
