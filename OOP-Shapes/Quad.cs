@@ -19,10 +19,6 @@ namespace OOP_Shapes {
         public int GetPerimeter() {
             return side1 + side2 + side3 + side4;
         }
-
-        public int GetArea() {
-            return side1 * side2;
-        }
     }
 }
 
